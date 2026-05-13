@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Static Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Azure Static Website</h1>
+        <p>This website is deployed using Azure Blob Storage and Azure DevOps CI/CD</p>
+    </header>
+
+    <section class="content">
+        <h2>About This POC</h2>
+        <p>
+            This static website is hosted on Azure Blob Storage with automated deployments 
+            via Azure DevOps pipeline.
+        </p>
+
+        <img src="images/sample.png" alt="Sample Image" class="demo-img">
+
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </section>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
